@@ -12,10 +12,10 @@ endif()
 project ("university")
 
 # Add source to this project's executable.
-add_executable (university "university.cpp" "inc/university.h" "src/menu.cpp")
+add_executable (university "university.c" "inc/university.h" "src/menu.c")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET university PROPERTY CXX_STANDARD 20)
+  set_property(TARGET university PROPERTY C_STANDARD 11)
 endif()
 
 # TODO: Add tests and install targets if needed.

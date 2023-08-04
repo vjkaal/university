@@ -3,10 +3,10 @@
 
 #include "inc/university.h"
 
-using namespace std;
 
 int main()
 {
-	cout << "Univesity Application" << endl;
+	printf("%s\n", "University Application");
+	menu();
 	return 0;
 }
